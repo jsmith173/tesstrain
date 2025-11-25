@@ -17,3 +17,4 @@ pacman -S mingw-w64-x86_64-imagemagick \
 
 # Optional: plotting and visualization
 pacman -S mingw-w64-x86_64-python-matplotlib
+pacman -S mingw-w64-x86_64-python-pandas
