@@ -104,11 +104,11 @@ def generate_toolbar_files(image_folder, tiff_folder, jpg_folder,
         jpg_path = os.path.join(jpg_folder, base + ".jpg")
         toolbar_rgb.save(jpg_path, format="JPEG", quality=jpg_quality)
 
-        print(f"Saved: {tif_path}, {jpg_path} | GT={textline} | BOX={box_path}")
+        #print(f"Saved: {tif_path}, {jpg_path} | GT={textline} | BOX={box_path}")
 
 jpg_path = "Symbols jpg"
 jpg_toolbar_path = "Toolbars jpg"
 tiff_path = "data/circuit-ground-truth"   
 
-generate_toolbar_files(jpg_path, tiff_path, jpg_toolbar_path, num_files=100, line_length=10, use_char_boxes=True)
+generate_toolbar_files(jpg_path, tiff_path, jpg_toolbar_path, num_files=2000, line_length=15, use_char_boxes=True)
 
