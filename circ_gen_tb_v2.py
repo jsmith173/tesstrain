@@ -143,7 +143,7 @@ if __name__ == "__main__":
         image_folder=jpg_path,        # bemeneti szimbólumok mappa
         tiff_folder=tiff_path,        # TIFF fájlok célmappa (grayscale)
         jpg_folder=jpg_toolbar_path,  # JPG fájlok célmappa (színes)
-        num_files=1000,               # sorok száma
+        num_files=10000,              # sorok száma
         line_length=15,               # soronkénti szimbólumok száma
         jpg_quality=95,               # JPG minőség
         use_char_boxes=True,          # karakter szintű box fájlok
