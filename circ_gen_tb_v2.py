@@ -187,10 +187,10 @@ if __name__ == "__main__":
 		image_folder=jpg_path,
 		tiff_folder=tiff_path,
 		jpg_folder=jpg_toolbar_path,
-		num_files=1000,
+		num_files=5000,
 		line_length=15,
 		jpg_quality=95,
-		use_char_boxes=True,
+		use_char_boxes=False,
 		augment=True,
 		small_rotation=True,
 		random_background=True
